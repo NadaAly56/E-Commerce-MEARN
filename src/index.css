@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito&display=swap');
+.navbar {
+  background-color: #ffffff !important;
+  font-size: 20px !important;
+}
+.margin-30 {
+  margin-left: 280%;
+  margin-right: 5%;
+}
+.hero {
+  background-color: #f2e1e3;
+  padding: 5% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-dark {
+  border-radius: 100px;
+  padding: 1% 6% !important;
+}
+.hero h1 {
+  font-size: 100px;
+  font-family: 'Marcellus', serif;
+}
+.hero .text {
+  font-size: 75px;
+  color: #e45a76;
+  font-family: 'Dancing Script', cursive;
+}
+.category {
+  padding: 5% 5%;
+  text-align: center;
+}
+.access {
+  background-image: url('../public/access.jpeg');
+  background-size: cover;
+}
+.category-label {
+  position: absolute;
+  width: 220px;
+    bottom: -5%;
+    left: calc(50% - 110px);
+    background-color: #e8f5f2;
+    padding: 1% 15%;
+    font-size: large;
+    font-weight: 600;
+    z-index: 100;
+}
+.border-cat {
+  width: 90%;
+  height: 95%;
+  inset: 10px;
+  position: absolute;
+  cursor: pointer !important;
+}
+
+.cat-img {
+  transition-duration: 0.5s;
+  cursor: pointer !important;
+}
+
+.cat-hover:hover .cat-img {
+  transform: scale(1.1);
+}
+
+.cat-hover:hover .border-cat {
+  border: 1px solid white;
+}
+.footer {
+  background-color: #f2e1e3;
+  padding: 5% 5%;
+  text-align: center;
+}
+.header {
+  background-color: #fafafc;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 5%;
+}
+.margin-right  {
+  margin-left: 70%;
+}
+.products-list {
+  padding: 5%;
+}
+.sign-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.sign-in-box {
+  background-color: #d4d4d4;
+  padding: 5%;
+  text-align: center;
+}
+input[type="email"], input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #acacac; /* Set the color of the bottom line */
+  outline: none;
+  margin: 5% 0;
+  width: 100%;
+  background-color: transparent;
+}
+input[type="email"]:focus, input[type="password"]:focus {
+  border-bottom: 2px solid #000;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.footer p {
+  font-size: large;
+}
