@@ -5,12 +5,12 @@ import Logo from './Logo';
 import { Link } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 
-function NavBar() {
+function NavBar({src}) {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">
-          <Logo></Logo>
+          <Logo src={src}></Logo>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

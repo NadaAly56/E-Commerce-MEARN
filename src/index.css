@@ -113,3 +113,11 @@ input[type="email"]:focus, input[type="password"]:focus {
 .footer p {
   font-size: large;
 }
+.product-box {
+  height: 400px;
+  transition-duration: 0.3s;
+}
+.product-box:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
