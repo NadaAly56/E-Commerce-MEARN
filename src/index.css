@@ -121,3 +121,16 @@ input[type="email"]:focus, input[type="password"]:focus {
   transform: scale(1.05);
   cursor: pointer;
 }
+.modal-style {
+  top: 30% !important;
+}
+.modal-content {
+background-color: #f2e1e3 !important;
+}
+.check-out-box {
+  background-color: #acacac;
+  border-radius: 10px;
+  padding: 2%;
+  width: 56%;
+  margin: auto;
+}

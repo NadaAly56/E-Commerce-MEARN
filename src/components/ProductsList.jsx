@@ -1,4 +1,4 @@
-import ProductItem from "./ProductItem";
+import ProductItem from "./reusable/ProductItem";
 
 export default function ProductsList() {
   return (
@@ -43,11 +43,13 @@ export default function ProductsList() {
                         </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col-9">
         <div className="row">
       {
         Array.from({length:12}, (_, index) => (
-          <ProductItem key={index} />
+          <div className="col-3 mb-5" key={index}>
+            <ProductItem  />
+          </div>
         ))
       }
     </div>

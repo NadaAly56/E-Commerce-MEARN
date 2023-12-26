@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ProductItem from "./ProductItem";
+import ProductItem from "./reusable/ProductItem";
 
 export default function BestSeller() {
   return (

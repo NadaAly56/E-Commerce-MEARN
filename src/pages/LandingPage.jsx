@@ -1,6 +1,6 @@
 import Category from "../components/Category";
-import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
+import Footer from "../components/reusable/Footer";
+import NavBar from "../components/reusable/NavBar";
 import BestSeller from "../components/bestSeller";
 import Hero from "../components/hero";
 

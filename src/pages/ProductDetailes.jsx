@@ -1,5 +1,6 @@
-import NavBar from "../components/NavBar";
+import NavBar from "../components/reusable/NavBar";
 import ImageCarousel from "../components/imageCarousel";
+import ProductDetailesSide from "../components/ProductDetailesSide";
 
 export default function ProductDetailes() {
   return (
@@ -11,7 +12,7 @@ export default function ProductDetailes() {
                 <ImageCarousel />
             </div>
             <div className="col-12 col-md-6">
-
+                <ProductDetailesSide />
             </div>
         </div>
     </div>

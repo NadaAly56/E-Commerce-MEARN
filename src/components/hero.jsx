@@ -3,9 +3,9 @@ import { Alert } from "react-bootstrap";
 export default function Hero() {
   return (
     <>
-      <Alert variant={"danger"}>
+      {/* <Alert variant={"danger"}>
           This website is under development!!
-        </Alert>
+        </Alert> */}
     <div className="hero">
         <div className="text-center">
           <p className="text">

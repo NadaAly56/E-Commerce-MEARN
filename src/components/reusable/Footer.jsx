@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
         </div>
             <div>
-                <p>Developed by Nada Ahmed &copy; 2023, All Rights Reserved | contact</p>
+                <p>Developed by Eng. Nada Ahmed 2023 &copy; All Rights Reserved | <a href="https://wa.me/+201159709545">Contact</a></p>
             </div>
     </div>
   )
